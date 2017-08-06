@@ -1,0 +1,30 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin:0;
+  height:100%;
+}
+#form{
+  margin-left:10%;
+  padding:15%;
+  overflow-y:auto;
+}
+#button{
+  width:100%;
+}
+#header
+{}
+a{
+  font-family:calibri;
+  font-size:20px;
+}
+#caption{
+  font-size:50px;
+  position:absolute;
+  top:20%;
+  font-weight:700;
+  font-family:Times new roman;  
+}
+  h3{
+	  font-family:
+  }
