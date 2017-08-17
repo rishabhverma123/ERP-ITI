@@ -23,7 +23,7 @@
 
 		<form id ="create" class="navbar-form navbar-left" action="<?php echo $_SERVER['PHP_SELF'];?>" method ="POST" onsubmit="return parent.scrollTo(0,1500); return true" >
 			<div class="form-group">
-				<label style="color:white;"> Select Semester </label>			
+				<label style="color:white;"> Select Department </label>			
 				<select name="department" class="form-control" required>
 					<option value="edp">   EDP    </option>
 					<option value="edc">   EDC 	  </option>

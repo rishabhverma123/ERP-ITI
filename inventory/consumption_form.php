@@ -3,13 +3,13 @@
 
 <body>
 <!-- Modal -->
-  <div class="modal fade" id="modal1" role="dialog">
+  <div class="modal fade" id="modal2" role="dialog">
     <div class="modal-dialog">
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h3 class="modal-title" align="center">Enter Import Detail</h3>
+          <h3 class="modal-title" align="center">Enter Consumption Detail</h3>
         </div>
         <div class="modal-body" id="form">
 		
@@ -32,7 +32,7 @@
 								
 								
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<button class="button" type="submit" name ='submit_import_detail' value ="submit">Submit</button>
+				<button class="button" type="submit" name ='submit_consumption_detail' value ="submit">Submit</button>
 									
 			</form>
 		 <br/>

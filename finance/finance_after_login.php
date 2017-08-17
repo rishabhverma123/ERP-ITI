@@ -27,7 +27,7 @@
   </head>
 <body>
 	<div>
-		<?php include_once("../includes/iti_header.html"); ?>
+		<?php include_once("iti_header.html"); ?>
 		<?php include_once("../includes/nav_without_select_department.php");?>;
 
 		

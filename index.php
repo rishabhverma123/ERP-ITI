@@ -1,6 +1,8 @@
 
 <?php
 	require_once "/includes/connection.php";
+	$_SESSION['department']=0;
+	//print_r($_SESSION);
 	session_start();
 	$_SESSION['is_loggedin']=false;
 	if( isset($_POST['username']) && isset($_POST['password']) && isset($_POST['department']))
@@ -93,7 +95,7 @@
     </head>
 	<body>
 	
-	<?php include_once("includes/iti_header.html"); ?>
+	<?php include_once("includes/iti_header.php"); ?>
 	<?php include_once("includes/index_nav.html"); ?>
 
 	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
@@ -112,52 +114,20 @@
 	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner" role="listbox">
 		<div class="item active">
-		  <img src="images/12a.jpg" alt="Chania">
-		  <div class="carousel-caption" id="caption">
-			 <p>Information Technology Department</p>
-		  </div>
+		  <img src="images/slide1.jpg" alt="Chania">
 		</div>
 		<div class="item">
-		  <img src="images/cs.jpg" alt="Chania">
-		  <div class="carousel-caption" id="caption">
-			 <p>Computer Science and  Engineering Department</p>
-		  </div>
+		  <img src="images/slide2.jpg" alt="Chania">
 		</div>
 		<div class="item">
-		  <img src="images/ec.jpg" alt="Chania">
-		  <div class="carousel-caption" id="caption">
-			 <p>Electronics Engineering Department</p>
-		  </div>
-			  </div>
-		<div class="item">
-		  <img src="images/11a.jpg" alt="Chania">
-		  <div class="carousel-caption" id="caption">
-			 <p>Mechanical Engineering Department</p>
-		  </div>
+		  <img src="images/slide3.jpg" alt="Chania">
 		</div>
-
-
 		<div class="item">
-		  <img src="images/2a.jpg" alt="Chania">
-		  <div class="carousel-caption" id="caption">
-			 <p>Civil Engineering Department</p>
-		  </div>
+		  <img src="images/slide4.jpg" alt="Chania">
 		</div>
-
 		<div class="item">
-		  <img src="images/ec (2).jpg" alt="Flower">
-		  <div class="carousel-caption" id="caption">
-			 <p>Electrical Engineering Department</p>
-		  </div>
+		  <img src="images/slide5.jpg" alt="Chania">
 		</div>
-
-		<div class="item">
-		  <img src="images/7.jpg" alt="Flower">
-		  <div class="carousel-caption" id="caption">
-			 <p>Chemical Engineering Department</p>
-		  </div>
-		</div>
-	  </div>
 
 	  <!-- Left and right controls -->
 	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">

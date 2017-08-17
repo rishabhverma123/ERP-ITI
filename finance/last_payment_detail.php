@@ -32,7 +32,7 @@
 	<body>
 		<div>
 
-			<?php include("../includes/iti_header.html");?>
+			<?php include("iti_header.html");?>
 			<?php include("../includes/nav_select_department.php");?>
 			
 			<div class="container-fluid">
